@@ -67,12 +67,6 @@ The project follows clean architecture principles with the following layers:
    docker compose exec app composer install
    ```
 
-5. Run tests:
-   ```bash
-   docker compose exec app composer test
-   docker compose exec app composer behat
-   ```
-
 ## Usage
 
 ### Generate a PDF
