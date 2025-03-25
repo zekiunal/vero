@@ -52,8 +52,6 @@ class TaskRepository implements TaskRepositoryInterface
 
             }
         }
-        file_put_contents("tasks.json", json_encode($response));
-        error_log(json_encode($response));
 
         return $tasks;
     }
