@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PDF Generation Service</title>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+            border-left: 3px solid #3498db;
+            padding-left: 15px;
+        }
+        .method {
+            font-weight: bold;
+            display: inline-block;
+            width: 60px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+	</style>
+</head>
+<body>
+<h1>PDF Generation Service</h1>
+<p>
+	Welcome to the PDF Generation Service. This service allows you to generate PDF reports of tasks from the BauBuddy API.
+</p>
+
+<h2>API Endpoints</h2>
+
+<div class="endpoint">
+	<p><span class="method">GET</span> <code>/service</code></p>
+	<p>Generate a PDF of tasks from the BauBuddy API.</p>
+	<p><strong>Parameters:</strong></p>
+	<ul>
+		<li><code>username</code> - Your BauBuddy username</li>
+		<li><code>password</code> - Your BauBuddy password</li>
+	</ul>
+	<p><strong>Example:</strong></p>
+	<pre><a href="/service?username=365&password=1">/service?username=365&password=1</a></pre>
+</div>
+
+<div class="endpoint">
+	<p><span class="method">GET</span> <code>/health</code></p>
+	<p>Check the health of the service.</p>
+	<p><strong>Example:</strong></p>
+	<pre><a href="/health">/health</a></pre>
+</div>
+
+<div class="endpoint">
+	<p><span class="method">GET</span> <code>/api/docs</code></p>
+	<p>Interactive API documentation with Swagger UI.</p>
+	<p><strong>Example:</strong></p>
+	<pre><a href="/api/docs">/api/docs</a></pre>
+</div>
+
+<h2>Additional Resources</h2>
+<ul>
+	<li><a href="https://github.com/zekiunal/vero">Source Code</a></li>
+	<li><a href="https://api.baubuddy.de">BauBuddy API Documentation</a></li>
+</ul>
+
+<footer style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; color: #7f8c8d;">
+	<p>PDF Generation Service &copy; 2025</p>
+</footer>
+</body>
+</html>
