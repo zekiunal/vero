@@ -69,6 +69,10 @@ The project follows clean architecture principles with the following layers:
 
 ## Usage
 
+## Information Page
+
+http://localhost:8080/index.html
+
 ### Generate a PDF
 
 To generate a PDF, make a GET request to the `/service` endpoint with `username` and `password` parameters:
