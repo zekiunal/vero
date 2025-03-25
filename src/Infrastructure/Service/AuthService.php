@@ -34,7 +34,7 @@ class AuthService implements AuthServiceInterface
         $cachedToken = $this->redis->get($cacheKey);
 
         if ($cachedToken) {
-            return $cachedToken;
+            #return $cachedToken;
         }
 
         // If not cached, authenticate with API
