@@ -80,7 +80,7 @@ The project follows clean architecture principles with the following layers:
 To generate a PDF, make a GET request to the `/service` endpoint with `username` and `password` parameters:
 
 ```
-GET http://localhost/service?username=365&password=1
+GET http://localhost:8080/service?username=365&password=1
 ```
 
 The service will respond with a PDF file for download.
@@ -90,7 +90,7 @@ The service will respond with a PDF file for download.
 To check the health of the service:
 
 ```
-GET http://localhost/health
+GET http://localhost:8080/health
 ```
 
 ### API Documentation
@@ -98,7 +98,7 @@ GET http://localhost/health
 The API documentation is available at:
 
 ```
-GET http://localhost/api/docs
+GET http://localhost:8080/api/docs
 ```
 
 ## Architecture
@@ -163,7 +163,7 @@ The service provides a Swagger UI interface for API exploration. The documentati
 ## Swagger
 
 ```
-GET http://localhost/api/docs
+GET http://localhost:8080/api/docs
 ```
 
 ### Swagger JSON
@@ -171,7 +171,7 @@ GET http://localhost/api/docs
 The Swagger JSON specification is available at:
 
 ```
-GET http://localhost/api/docs/json
+GET http://localhost:8080/api/docs/json
 ```
 
 ## License
