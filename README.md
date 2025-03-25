@@ -12,7 +12,6 @@ A PHP-based web service that authenticates with an API, retrieves task data, and
 - Background worker for notifications
 - RESTful API with Swagger documentation
 - Health check endpoint for monitoring
-- Comprehensive test coverage with PHPUnit and Behat
 
 ## Technology Stack
 
