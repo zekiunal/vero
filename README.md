@@ -42,7 +42,7 @@ The project follows clean architecture principles with the following layers:
 1. Clone the repository:
    ```bash
    git clone https://github.com/zekiunal/vero.git
-   cd pdf-service
+   cd vero
    ```
 
 2. Create a `.env` file with the following content:
